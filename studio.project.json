@@ -1,0 +1,33 @@
+{
+	"name": "input-handler-tests",
+	"globIgnorePaths": [
+		"**/package.json",
+		"**/tsconfig.json"
+	],
+	"tree": {
+		"$className": "DataModel",
+		"ReplicatedStorage": {
+			"include": {
+				"$path": "include",
+				"node_modules": {
+					"$className": "Folder",
+					"@rbxts": {
+						"$path": "node_modules/@rbxts"
+					}
+				}
+			},
+			"Package": {
+				"$path": "out"
+			}
+		},
+		"StarterPlayer": {
+			"$className": "StarterPlayer",
+            "StarterPlayerScripts": {
+                "$className": "StarterPlayerScripts",
+                "testBootstrap": {
+                    "$path": "out/testBootstrap.client.lua"
+                }
+            }
+		}
+	}
+}

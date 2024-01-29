@@ -1,0 +1,30 @@
+{
+	"typescript.tsdk": "node_modules/typescript/lib",
+	"files.eol": "\n",
+	"[typescript]": {
+		"editor.defaultFormatter": "dbaeumer.vscode-eslint",
+		"editor.formatOnSave": true
+	},
+	"[typescriptreact]": {
+		"editor.defaultFormatter": "dbaeumer.vscode-eslint",
+		"editor.formatOnSave": true
+	},
+	"eslint.run": "onType",
+	"eslint.format.enable": true,
+	"cSpell.words": [
+		"Thumbstick"
+	],
+	"emeraldwalk.runonsave": {
+		"commands": [
+			{
+				"cmd": "del /q ${workspaceFolder}\\test\\spec-test\\node_modules\\@rbxts\\3a"
+			},
+			{
+				"cmd": "mkdir ${workspaceFolder}\\test\\spec-test\\node_modules\\@rbxts\\3a"
+			},
+			{
+				"cmd": "XCOPY /E /C /Q /I /Y \"${workspaceFolder}\\src\" \"${workspaceFolder}\\test\\spec-test\\node_modules\\@rbxts\\3a\""
+			},
+	]
+	}
+}
