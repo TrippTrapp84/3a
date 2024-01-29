@@ -12,7 +12,14 @@
 	"eslint.run": "onType",
 	"eslint.format.enable": true,
 	"cSpell.words": [
-		"Thumbstick"
+		"Backquote",
+		"keycodes",
+		"rbxts",
+		"Roact",
+		"Roblox",
+		"Thumbstick",
+		"tsbuildinfo",
+		"USERINPUTTYPE"
 	],
 	"emeraldwalk.runonsave": {
 		"commands": [
@@ -26,5 +33,13 @@
 				"cmd": "XCOPY /E /C /Q /I /Y \"${workspaceFolder}\\src\" \"${workspaceFolder}\\test\\spec-test\\node_modules\\@rbxts\\3a\""
 			},
 	]
+	},
+	"cSpell.customDictionaries": {
+		"custom-dictionary-workspace": {
+			"name": "custom-dictionary-workspace",
+			"path": "${workspaceFolder:input-handler}/.cspell/custom-dictionary-workspace.txt",
+			"addWords": true,
+			"scope": "workspace"
+		}
 	}
 }

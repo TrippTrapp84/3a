@@ -42,5 +42,5 @@ export const RobloxInputType3AMap = {
 export const RobloxInputType3AReverseMap = new Map<Enum.UserInputType, Types>();
 
 for (const [k, v] of pairs(RobloxInputType3AMap)) {
-	v.forEach((it) => RobloxInputType3AReverseMap.set(it, k));
+	v.forEach(it => RobloxInputType3AReverseMap.set(it, k));
 }

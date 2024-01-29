@@ -19,5 +19,5 @@ export const RobloxInputMethod3AMap = {
 export const RobloxInputMethod3AReverseMap = new Map<Types, Methods>();
 
 for (const [k, v] of pairs(RobloxInputMethod3AMap)) {
-	v.forEach((it) => RobloxInputMethod3AReverseMap.set(it, k));
+	v.forEach(it => RobloxInputMethod3AReverseMap.set(it, k));
 }

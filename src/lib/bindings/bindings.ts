@@ -70,7 +70,7 @@ export class Binding {
 	}
 
 	public fire(input: BindingInput): void {
-		this.connections.forEach((c) => c.callback(input));
+		this.connections.forEach(c => c.callback(input));
 	}
 }
 
